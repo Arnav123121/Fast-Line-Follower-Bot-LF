@@ -1,3 +1,194 @@
+Here is a **professional GitHub `README.md`** for your **Fast Line Follower Robot** project. You can paste this directly into your repository.
+
+---
+
+# ⚡ Fast Line Follower Robot
+
+A **high-speed autonomous line follower robot** designed for robotics competitions such as **Techno Main World Cup – World Robotic Championship 2025**.
+The robot uses **infrared line sensors and PID control** to follow a track with high accuracy and speed.
+
+This project focuses on **fast response, stable control, and efficient motor driving** for competitive robotics.
+
+---
+
+# 🚀 Features
+
+✔ High-speed line tracking
+✔ PID-based control algorithm
+✔ IR sensor array for accurate line detection
+✔ ESP32 microcontroller for fast processing
+✔ Dual motor drive system
+✔ Lightweight and compact design
+✔ Designed for **robotic competitions**
+
+---
+
+# 📷 Robot Images
+
+## Robot Prototype
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+![Image]()
+
+
+---
+
+# 🧠 Working Principle
+
+1. **IR sensors detect the line** on the track.
+2. Sensor values are processed by the **ESP32 microcontroller**.
+3. A **PID control algorithm** calculates the correction.
+4. Motor speeds are adjusted through the **motor driver**.
+5. The robot continuously corrects its path to stay on the line at high speed.
+
+---
+
+# 🔧 Hardware Components
+
+| Component                          | Purpose              |
+| ---------------------------------- | -------------------- |
+| ESP32                              | Main microcontroller |
+| IR Line Sensor Array (QTR Sensors) | Line detection       |
+| Motor Driver                       | Controls motor speed |
+| DC Gear Motors                     | Robot movement       |
+| LiPo Battery (2S)                  | Power supply         |
+| Voltage Regulators                 | Stable power output  |
+| Custom PCB / Perfboard             | Circuit mounting     |
+| Robot Chassis                      | Structural support   |
+
+---
+
+# 🔌 Circuit Overview
+
+### Motor Driver → ESP32
+
+```
+IN1 → GPIO
+IN2 → GPIO
+IN3 → GPIO
+IN4 → GPIO
+ENA → PWM Pin
+ENB → PWM Pin
+```
+
+### QTR Sensor Array → ESP32
+
+```
+Sensor1 → GPIO
+Sensor2 → GPIO
+Sensor3 → GPIO
+Sensor4 → GPIO
+Sensor5 → GPIO
+```
+
+---
+
+# 🧑‍💻 Software
+
+Developed using **Arduino IDE with ESP32 board support**.
+
+### Libraries Used
+
+```
+QTRSensors
+Arduino.h
+```
+
+---
+
+# 📂 Project Structure
+
+```
+Fast-Line-Follower-Bot
+│
+├── code
+│   ├── MotorTestRun.ino
+│   ├── QTRAExample.ino
+│   ├── QTRARawValuesExample.ino
+│   ├── QTRRCExample.ino
+│   └── QTRRCRawValuesExample.ino
+│
+├── images
+│   ├── robot1.jpg
+│   ├── robot2.jpg
+│   └── robot3.jpg
+│
+└── README.md
+```
+
+---
+
+# ⚙️ How to Run
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/fast-line-follower-robot.git
+```
+
+---
+
+### 2️⃣ Install Arduino IDE Libraries
+
+Install:
+
+* QTRSensors Library
+
+---
+
+### 3️⃣ Upload the Code
+
+Select board:
+
+```
+ESP32 Dev Module
+```
+
+Upload the program to the ESP32.
+
+---
+
+### 4️⃣ Calibrate Sensors
+
+Before running:
+
+* Place robot over the line
+* Run sensor calibration
+* Adjust PID parameters if required
+
+---
+
+# 🏁 Applications
+
+* Robotics competitions
+* Autonomous navigation
+* Line tracking robots
+* Embedded systems learning
+
+---
+
+# 🔮 Future Improvements
+
+* Advanced PID tuning for higher speed
+* AI-based path prediction
+* Wireless tuning via Bluetooth/WiFi
+* Lightweight custom PCB
+
+---
+
+# 👨‍💻 Author
+
+**Arnav Domalwar**
+
+Electronics & Robotics Developer
+
+---
+
 # Arduino library for the Pololu QTR Reflectance Sensors
 
 Version: 4.0.0<br>
