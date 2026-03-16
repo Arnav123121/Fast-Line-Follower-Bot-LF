@@ -1,7 +1,3 @@
-Here is a **professional GitHub `README.md`** for your **Fast Line Follower Robot** project. You can paste this directly into your repository.
-
----
-
 # ⚡ Fast Line Follower Robot
 
 A **high-speed autonomous line follower robot** designed for robotics competitions such as **Techno Main World Cup – World Robotic Championship 2025**.
@@ -27,13 +23,13 @@ This project focuses on **fast response, stable control, and efficient motor dri
 
 ## Robot Prototype
 
-![Image]()
+![Image](https://github.com/Arnav123121/Fast-Line-Follower-Bot-LF/blob/main/WhatsApp%20Image%202026-03-16%20at%2010.06.15%20PM.jpeg?raw=true)
 
-![Image]()
+![Image](https://github.com/Arnav123121/Fast-Line-Follower-Bot-LF/blob/main/WhatsApp%20Image%202026-03-16%20at%2010.50.53%20PM%20(1).jpeg?raw=true)
 
-![Image]()
+![Image](https://github.com/Arnav123121/Fast-Line-Follower-Bot-LF/blob/main/WhatsApp%20Image%202026-03-16%20at%2010.50.53%20PM.jpeg?raw=true)
 
-![Image]()
+![Image](https://github.com/Arnav123121/Fast-Line-Follower-Bot-LF/blob/main/WhatsApp%20Image%202026-03-16%20at%2010.00.59%20PM.jpeg?raw=true)
 
 
 ---
